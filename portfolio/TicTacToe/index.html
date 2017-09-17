@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+    Name: Daniel Dias
+    Version: 2.0
+    Date created: May 16 2017
+    Date updated: May 22 2017
+    Description: Website developed to check the knowledge acquired in the first two weeks of classes on the Web Programming course on Sheridan College.
+-->
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <!-- main content -->
+        <header>
+            <h1>Tic Tac Toe!</h1>
+        </header>
+        <!-- game board -->
+        <table>
+            <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+        </table>
+        <!-- play information and controls -->
+        <p><span id="playerGo">Player <span id="player">X</span> <span id="playerMessage">Starts the Game!</span></span>
+            <button id="reset">Start Game</button>
+        </p>
+        <!-- Scoreboard to keep track on who's winning -->
+        <div id="scoreBoard">
+            <h2>Scoreboard</h2>
+            <h4>Player X: <span id="winX"></span></h4>
+            <h4>Player O: <span id="winY"></span></h4>
+        </div>
+        <!-- footer -->
+        <footer><address>© 2017, Daniel Dias</address>
+        </footer>
+
+        <!-- hidden elements used for displaying results -->
+        <div id="message">
+            <p>GAME OVER!</p>
+            <h3 id="winner"></h3>
+            <p>&mdash;click anywhere in the box to dismiss this message&mdash;</p>
+        </div>
+        <div id="overlay"></div>
+        <script type="text/javascript" src="js/tictactoe.js"></script>
+    </body>
+</html>
