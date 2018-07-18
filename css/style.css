@@ -92,6 +92,10 @@ header {
     background-color: #004d99 !important;
 }
 
+.tabs .active a {
+    color: #ffe500;
+}
+
 .icon-bar {
     background: #fff;
 }
@@ -215,7 +219,7 @@ header {
 
 #downloadPdf h3 {
     color: #fff;
-    padding-bottom: 20px;
+    padding: 10px 0 20px 0;
 }
 
 #downloadPdf a {
