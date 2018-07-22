@@ -4,10 +4,9 @@
     Name: Daniel Dias
     Version: 1.0
     Date created: Sep 06 2017
-    Date updated: Sep 06 2017
+    Date updated: Jul 18 2018
     Description: Website created
     -->
-<html>
 <head>
     <title>Daniel Dias</title>
     <meta charset="UTF-8">
@@ -15,9 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/png" href="images/favicon2.png"/>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link type="text/css" rel="stylesheet" href="css/style.css"/>
-    <script src="js/form.js" type="text/javascript"></script>
-
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,8 +45,8 @@
 
 
                 <a href="index.html" class="navbar-brand">
-                    <img src="images/myPhoto2.jpg" id="myPhoto"/>
-                    <img src="images/logo.png" id="logo">
+                    <img src="images/myPhoto2.jpg" id="myPhoto" alt="Daniel Dias's Photo "/>
+                    <img src="images/logo.png" id="logo" alt="Logo containing double white D letters in a blue background">
                 </a>
 
             </div>
@@ -60,7 +57,7 @@
                     <li data-panel-name="panel1" class="active"><a href="#">Home</a></li>
                     <li data-panel-name="panel2"><a href="#">Resume</a></li>
                     <li data-panel-name="panel3"><a href="#">Portfolio</a></li>
-                    <li data-panel-name="panel4"><a href="#">Contact</a></li>
+                    <li data-panel-name="panel4"><a href="#">Get in Touch</a></li>
                 </ul>
             </div>
         </div><!-- /container -->
@@ -86,10 +83,10 @@
 
                 <div class="row">
                     <div class="col-sm-6 social">
-                        <a href="https://github.com/danielndias" target="_blank"><img src="images/git.png"></a>
+                        <a href="https://github.com/danielndias" target="_blank"><img src="images/git.png" alt="GitHub Black & White Logo"></a>
                     </div>
                     <div class="col-sm-6 social">
-                        <a href="https://ca.linkedin.com/in/danielndias" target="_blank"><img src="images/linkedin.png"></a>
+                        <a href="https://ca.linkedin.com/in/danielndias" target="_blank"><img src="images/linkedin.png" alt="Linkedin Logo"></a>
                     </div>
 
                 </div> <!-- /row -->
@@ -102,12 +99,12 @@
             <div class="titleBar">
                 <h1>My Resume</h1>
             </div>
-            <div class="container">
+            <div class="container resumePage">
                 <div class="row">
                     <div class="col-md-6">
                         <h3>Experience</h3>
                         <ul class="resumeList">
-                            <li><img src="images/circle.png"/><strong> Web Designer & Search Engine Optimizer</strong></li>
+                            <li><img src="images/circle.png" alt="Blue circle bullet point"/><strong> Web Designer & Search Engine Optimizer</strong></li>
                             <li>Digihype Media | Feb 2017 - Present</li>
                             <li>
                                 <ul class="resumeActivities">
@@ -119,7 +116,7 @@
                                 </ul>
                             </li>
                             <br/>
-                            <li><img src="images/circle.png"/><strong>Network Security Analyst (co-op)</strong></li>
+                            <li><img src="images/circle.png" alt="Blue circle bullet point"/><strong>Network Security Analyst (co-op)</strong></li>
                             <li>Royal Bank of Canada | Jan 2018 - Apr 2018</li>
                             <li>
                                 <ul class="resumeActivities">
@@ -130,7 +127,7 @@
                                 </ul>
                             </li>
                             <br/>
-                            <li><img src="images/circle.png"/><strong> Network Analyst</strong></li>
+                            <li><img src="images/circle.png" alt="Blue circle bullet point"/><strong> Network Analyst</strong></li>
                             <li>ATIVAS Data Center | Jun 2015 - Dec 2016</li>
                             <li>
                                 <ul class="resumeActivities">
@@ -153,7 +150,7 @@
                                 </ul>
                             </li>
                             <br/>
-                            <li><img src="images/circle.png"/><strong> Support Analyst</strong></li>
+                            <li><img src="images/circle.png" alt="Blue circle bullet point"/><strong> Support Analyst</strong></li>
                             <li>Dominio Informatics | Dec 2010 - Dec 2014</li>
                             <li>
                                 <ul class="resumeActivities">
@@ -166,16 +163,16 @@
                         </ul>
                         <h3>Education</h3>
                         <ul class="resumeList">
-                            <li><img src="images/circle.png"/><strong> Sheridan College</strong></li>
+                            <li><img src="images/circle.png" alt="Blue circle bullet point"/><strong> Sheridan College</strong></li>
                             <li>Diploma in Computer Programmer</li>
                             <li>Jan 2017 - Aug 2018</li>
                             <br/>
-                            <li><img src="images/circle.png"/><strong> PUC Minas – Belo Horizonte, MG, Brazil</strong>
+                            <li><img src="images/circle.png" alt="Blue circle bullet point"/><strong> PUC Minas – Belo Horizonte, MG, Brazil</strong>
                             </li>
                             <li>Postgraduate in IT Infrastructure Management</li>
                             <li>Mar 2015 – Oct 2016</li>
                             <br/>
-                            <li><img src="images/circle.png"/><strong> CEUMA University – Sao Luis, MA, Brazil</strong>
+                            <li><img src="images/circle.png" alt="Blue circle bullet point"/><strong> CEUMA University – Sao Luis, MA, Brazil</strong>
                             </li>
                             <li>Bachelor’s Degree in Information Systems</li>
                             <li>Jan 2008 – Jul 2011</li>
@@ -185,10 +182,11 @@
                         <h3>Technical Skills</h3>
                         <ul class="resumeList skillsList">                            
                             <li>HTML/CSS</li>
-                            <li>SASS</li>
+                            <li>SCSS/SASS</li>
                             <li>JavaScript</li>
                             <li>Angular</li>
                             <li>Java</li>
+                            <li>Spring</li>
                             <li>Wordpress</li>
                             <li>Oracle SQL</li>
                             <li>MySQL</li>
@@ -222,13 +220,15 @@
             </div>
             <div id="downloadPdf">
                 <h3>Want to see it later?</h3><br/>
-                <a href="./DanielDias.Resume.pdf" download="DanielDias.Resume.pdf">Download PDF Version</a>
+                <a href="./DanielDiasResume.pdf" download="DanielDiasResume">Download PDF Version</a>
             </div>
 
             <div class="social">
                 <h4>Check my linkedin profile:</h4>
-                <a href="https://ca.linkedin.com/in/danielndias" target="_blank"><img src="images/linkedin.png"></a>
+                <a href="https://ca.linkedin.com/in/danielndias" target="_blank"><img src="images/linkedin.png" alt="Linkedin Logo"></a>
             </div>
+
+            
         </section>
 
         <section id="panel3" class="panel">
@@ -239,10 +239,10 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="portfolio">
-                            <img src="images/nfl.JPG" id="nfl" alt="NFL Pick-a-Pair Game Screen"/>
-                            <a href="portfolio/PickAPair/index.html" target="_blank"><h4>NFL Pick-a-Pair</h4></a>
-                            <p>Pick a Pair game of NFL Teams developed in JavaScript</p>
-                            <a href="https://github.com/danielndias/web.PickAPair" target="_blank">Check the Code</a>
+                            <img src="images/rockPaperScissors.JPG" id="rps" alt="Rock Paper Scissors Game Screen"/>
+                            <a href="portfolio/RockPaperScissors/index.html" target="_blank"><h4>Rock Paper Scissors</h4></a>
+                            <p>Rock Paper Scissors game developed in JavaScript</p>
+                            <a href="https://github.com/danielndias/web.RockPaperScissors" target="_blank">Check the Code</a>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -255,25 +255,6 @@
                     </div>
                     <div class="col-md-4">
                         <div class="portfolio">
-                            <img src="images/spotify.JPG" id="spotify" alt="Spotify Clone Website Screen"/>
-                            <a href="portfolio/spotify/index.html" target="_blank"><h4>Spotify Clone Website</h4></a>
-                            <p>Spotify clone website developed in portuguese in order to test the knowledge acquire
-                            during web development classes</p>
-                            <a href="#" target="_blank">Check the Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="portfolio">
-                            <img src="images/rockPaperScissors.JPG" id="rps" alt="Rock Paper Scissors Game Screen"/>
-                            <a href="portfolio/RockPaperScissors/index.html" target="_blank"><h4>Rock Paper Scissors</h4></a>
-                            <p>Rock Paper Scissors game developed in JavaScript</p>
-                            <a href="https://github.com/danielndias/web.RockPaperScissors" target="_blank">Check the Code</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="portfolio">
                             <img src="images/rpsls.JPG" id="rpsls" alt="Rock Paper Scissors Lizard Spock Game Screen"/>
                             <a href="portfolio/RockPaperScissorsLizardSpock/index.php" target="_blank">
                                 <h4>Rock Paper Scissors Lizard Spock</h4>
@@ -285,6 +266,25 @@
                             <a href="https://github.com/danielndias/web.RockPaperScissorsLizardSpock" target="_blank">
                                 Check the Code
                             </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="portfolio">
+                            <img src="images/nfl.JPG" id="nfl" alt="NFL Pick-a-Pair Game Screen"/>
+                            <a href="portfolio/PickAPair/index.html" target="_blank"><h4>NFL Pick-a-Pair</h4></a>
+                            <p>Pick a Pair game of NFL Teams developed in JavaScript</p>
+                            <a href="https://github.com/danielndias/web.PickAPair" target="_blank">Check the Code</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio">
+                            <img src="images/spotify.JPG" id="spotify" alt="Spotify Clone Website Screen"/>
+                            <a href="portfolio/spotify/index.html" target="_blank"><h4>Spotify Clone Website</h4></a>
+                            <p>Spotify clone website developed in portuguese in order to test the knowledge acquire
+                            during web development classes</p>
+                            <a href="#" target="_blank">Check the Code</a>
                         </div>
                     </div>
                 </div>
@@ -303,11 +303,11 @@
                         <h3>My Contact Information</h3>
                         <div id="contactInfo">
                             <ul>
-                                <li><a href="tel:12898852240">+1(289)885-2240</a></li>
+                                <li><a href="tel:12898852240">+1 (289) 885-2240</a></li>
                                 <li><a href="mailto:contact@dndias.com">contact@dndias.com</a></li>
                                 <li>
-                                    <a href="https://www.google.com.br/maps/place/1837+Bonnymede+Dr,+Mississauga,+ON+L5J+1E2,+Canad%C3%A1/@43.5108631,-79.6236031,17z/data=!3m1!4b1!4m5!3m4!1s0x882b4458b80136af:0x6d41fa5779402565!8m2!3d43.5108592!4d-79.6214144?hl=pt-BR">
-                                        1837 Bonnymede Dr<br/>Mississauga, ON - L5J 1E2</a></li>
+                                    <a href="https://www.google.com/maps/place/Mississauga,+ON/@43.5772409,-79.6344318,11z/data=!3m1!4b1!4m5!3m4!1s0x882b469fe76b05b7:0x3146cbed75966db!8m2!3d43.5890452!4d-79.6441198">
+                                       Mississauga, ON</a></li>
                             </ul>
                         </div>
                     </div>
@@ -349,6 +349,7 @@
 <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-<script src="js/tabs.js" type="text/javascript"></script>
+<script src="js/tabs.min.js"></script>
+<script src="js/form.min.js"></script>
 </body>
 </html>

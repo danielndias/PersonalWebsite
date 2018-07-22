@@ -1,0 +1,24 @@
+.portfolio {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+
+    h4 {
+        font-size: 22px;
+        font-weight: 700;
+        color: $primary-color;
+    }
+
+    img {
+        border: 1px dashed $primary-color;
+    }
+}
+
+#tictactoe, #rps, #rpsls  {
+    @include height(300px);
+}
+
+#nfl, #spotify {
+    @include height(150px);
+
+}

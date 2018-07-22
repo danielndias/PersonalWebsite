@@ -1,0 +1,60 @@
+// #### Screen Sizes ####
+@mixin big-screen {
+    @media all and (min-width: $desktop) {
+        @content
+    }
+}
+
+@mixin medium-screen {
+    @media all and (min-width: $tablet) and (max-width: $desktop - 1) {
+        @content
+    }
+}
+
+@mixin small-screen {
+    @media all and (max-width: $tablet - 1px) {
+        @content
+    }
+}
+
+
+//Import Google Fonts
+@mixin google-font($font) {
+    $font: unquote($font);
+    @import url(https://fonts.googleapis.com/css?family=#{$font});
+}
+
+@mixin link-style {
+    a {
+        color: #222222;
+        text-decoration: none !important;
+
+        &:hover {
+            color: darken(#222222, 20%);
+        }
+    }
+}
+
+@mixin box-shadow($shadows...) {
+    box-shadow: $shadows;
+    -moz-box-shadow: $shadows;
+    -webkit-box-shadow: $shadows;
+}
+
+@mixin height($height) {
+    height: $height;
+}
+
+@mixin width($width) {
+    width: $width;
+}
+
+@mixin auto-margin {
+    margin: auto;
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}

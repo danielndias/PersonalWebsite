@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC,EAAE,AAAC,CACT,UAAU,CAAE,MAAM,CAClB,KAAK,CAAE,OAAO,CACd,MAAM,CAAE,aAAa,CAGxB,AAED,AAAA,SAAS,CAAC,EAAE,AAAC,CACT,UAAU,CAAE,MAAM,CAClB,KAAK,CAAE,OAAO,CACd,aAAa,CAAE,IAAI,CACtB,AAED,AAAA,WAAW,AAAC,CACR,UAAU,CAAE,MAAM,CAClB,aAAa,CAAE,IAAI,CACtB,AAED,AAAA,eAAe,AAAC,CACZ,WAAW,CAAE,GAAG,CACnB",
+    "sources": [
+        "../scss/thanks.scss"
+    ],
+    "names": [],
+    "file": "thanks.min.css"
+}

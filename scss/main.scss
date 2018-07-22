@@ -1,0 +1,24 @@
+// Importing Variables
+@import "partials/variables";
+
+// Importing Mixins
+@import "partials/mixins";
+
+// Importing Common
+@import "partials/common/common";
+@import "partials/common/header";
+
+// Importing Pages
+@import "partials/pages/home";
+@import "partials/pages/resume";
+@import "partials/pages/portfolio";
+@import "partials/pages/contact";
+
+
+
+@include google-font("Bitter");
+@include google-font("Roboto+Condensed");
+
+@include link-style;
+
+

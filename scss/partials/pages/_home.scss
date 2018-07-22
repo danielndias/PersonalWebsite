@@ -1,0 +1,20 @@
+.social {
+    text-align: center;
+}
+
+.social img {
+    display: block;
+    width: 230px;
+    margin: 20px auto;
+}
+
+.profile p {
+    padding: 50px 20px;
+    font-size: $base-size + 2px;
+}
+
+@media all and (min-width: 768px) {
+    .profile p {
+        padding: 50px 100px;
+    }
+}

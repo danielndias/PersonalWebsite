@@ -1,0 +1,37 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headers-font;
+}
+
+p {
+    font-size: $base-size;
+    font-family: $body-font;
+}
+
+#body {
+    margin: auto;
+    background: url("../images/background2.jpg");
+
+    @include big-screen {
+        width: $content-width;
+        box-sizing: border-box;
+    }
+}
+
+footer {
+    margin: 15px auto;
+    padding-right: 10px;
+    text-align: right;
+}
+
+h3 {
+    display: inline-block;
+	margin-left: 30px;
+	color: $primary-color;
+}
+
+.container {
+    @include big-screen {
+        width: $content-width;
+        box-sizing: border-box;
+    }
+}

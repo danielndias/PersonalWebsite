@@ -1,0 +1,129 @@
+.navbar-brand img {
+    display: inline-block;
+}
+
+#logo {
+    @include height(100px);
+    margin-top: -60px;
+}
+
+#myPhoto {
+    @include height(170px);
+    @include box-shadow(2px 2px 2px $black);
+    border: 2px solid $white;
+}
+
+.tab-panels .panel {
+    @include auto-margin;
+    @include box-shadow(1px 1px 1px 1px $grey);
+    display: none;
+    border: 1px solid $primary-color;
+    border-radius: 0 0 30px 30px;
+    background-color: $white;
+    border-top: 0;
+}
+
+.tab-panels .panel.active {
+    display: block;
+}
+
+.navigationBar {
+    padding: 15px 0;
+    background: linear-gradient($ternary-color, $secondary-color);
+    border: none;
+    margin-bottom: 0 !important;
+
+    a {
+        color: $white;
+        margin: 0 15px;
+        font-size: $base-size + 2px;
+        border-bottom: 1px solid transparentize($menu-yellow, 1);
+        padding: 6px 8px;
+        transition: border-bottom .5s;
+        transition-timing-function: ease-in-out;
+    
+        &:hover {
+            color: $menu-yellow;
+            border-bottom: 1px solid opacify($menu-yellow, .5);
+            background-color: $transparent !important;
+        }
+    
+        &:focus {
+            color: $white;
+            background-color: $transparent !important;
+        }
+    }
+}
+
+.tabs .active a {
+    color: $menu-yellow;
+}
+
+.icon-bar {
+    background: $white;
+}
+
+#body {
+    @include small-screen {
+        .navbar-collapse {
+            margin-top: 60px;
+        }
+    }
+}
+
+.titleBar {
+    padding-top: 30px;
+    margin: 0;
+    border-bottom: 1px dashed $primary-color;
+    h1 {
+        color: $primary-color;
+        text-align: right;
+        padding-right: 20px;
+    }
+}
+
+@include medium-screen {
+    .container {
+        @include width(100%);
+        .nav>li>a {
+            padding: 10px 0;
+        }
+    }
+}
+
+@include small-screen {
+    #body {
+        padding: 0 20px;
+    }
+	
+    .titleBar {
+        padding-top: 10px;
+    }
+    .navbar-brand img {
+        display: block;
+    }
+    #logo {
+        height: 80px;
+    }
+    #myPhoto {
+        margin-top: -20px;
+        height: 100px;
+    }
+
+    #downloadPdf a {
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 380px) {
+    #myPhoto {
+        margin-top: -60px;
+        height: 100px;
+    }
+}
+
+@media all and (min-width: 400px) {
+    .navbar-collapse {
+        margin-top: 60px;
+    }
+}

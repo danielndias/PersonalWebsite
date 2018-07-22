@@ -24,6 +24,8 @@ function validate() {
         txtName.focus();
 
         return false;
+    } else {
+        document.getElementById("nameError").innerHTML = "";
     }
 
     if( txtEmail == "" ) {
@@ -31,26 +33,24 @@ function validate() {
         document.getElementById("emailError").innerHTML = "Please provide your Email!";
         txtEmail.focus();
         return false;
-    }
-
-    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=txtEmail.length) {
+    } else if (atpos<1 || dotpos<atpos+2 || dotpos+2>=txtEmail.length) {
         event.preventDefault();
         document.getElementById("emailError").innerHTML = "Please enter a valid e-mail address";
         txtEmail.focus();
         return false;
+    } else {
+        document.getElementById("emailError").innerHTML = "";
     }
 
     if( txtMessage == "" ) {
         event.preventDefault();
-        document.getElementById("emailError").innerHTML = "Please Type a Message!";
+        document.getElementById("messageError").innerHTML = "Please Type a Message!";
         txtMessage.focus();
         return false;
+    } else {
+        document.getElementById("messageError").innerHTML = "";
     }
 
-
-
     return( true );
-
-
-
+    
 }

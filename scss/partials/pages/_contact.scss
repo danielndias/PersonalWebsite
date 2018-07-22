@@ -1,0 +1,57 @@
+
+#contactForm input, #contactForm textarea {
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+}
+
+#contactForm button {
+    float: right;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    background: $primary-color;
+    color: $white;
+
+    &:hover {
+        background: darken($primary-color, 10%);
+    }
+}
+
+#contactInfo {
+    padding: 20px;
+
+    ul {
+        list-style-image: url("../images/mail.png");
+
+        li:first-child {
+            list-style-image: url("../images/phone.png");
+        }
+
+        li:last-child {
+            list-style-image: url("../images/address.png");
+        }
+
+        li {
+            padding: 10px;
+            margin: 10px 30px;
+
+            a{
+                font-size: 130%;
+                color: #000;
+            }
+        }
+    }
+}
+
+#contact h3 {
+	margin-left: 0;
+}
+
+#nameError, #emailError, #messageError {
+    color: red;
+    display: block;
+}
+
+
+
