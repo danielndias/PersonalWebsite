@@ -55,6 +55,15 @@
     }
 }
 
+.navbar-brand {
+    border-bottom: 0 !important;
+    padding: 15px !important;
+
+    &:hover {
+    border-bottom: 0 !important;
+    }
+}
+
 .tabs .active a {
     color: $menu-yellow;
 }

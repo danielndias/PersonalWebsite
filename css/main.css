@@ -106,6 +106,15 @@ h3 {
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
+.navbar-brand {
+  border-bottom: 0 !important;
+  padding: 15px !important;
+}
+
+.navbar-brand:hover {
+  border-bottom: 0 !important;
+}
+
 .tabs .active a {
   color: #ffe500;
 }
