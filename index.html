@@ -4,8 +4,7 @@
     Name: Daniel Dias
     Version: 1.0
     Date created: Sep 06 2017
-    Date updated: Jul 18 2018
-    Description: Website created
+    Date updated: Jul 27 2018
     -->
 <head>
     <title>Daniel Dias</title>
@@ -13,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/png" href="images/favicon2.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link type="text/css" rel="stylesheet" href="css/main.min.css"/>
 
@@ -194,6 +194,7 @@
                             <li>HTML/CSS</li>
                             <li>SCSS/SASS</li>
                             <li>JavaScript</li>
+                            <li>Typescript</li>
                             <li>JQuery</li>
                             <li>Angular</li>
                             <li>Java</li>
@@ -203,7 +204,6 @@
                             <li>MySQL</li>
                             <li>Computer Hardware</li>
                             <li>Network Infrastructure</li>
-                            <li>Cisco Devices</li>
                             <li>Microsoft Windows Server 2012/2016</li>
                         </ul>
                         <h3>Soft Skills</h3>
@@ -230,12 +230,27 @@
                 </div>
             </div>
             <div id="downloadPdf">
-                <h3>Want to see it later?</h3><br/>
-                <a href="./DanielDiasResume.pdf" download="DanielDiasResume">Download PDF Version</a>
+                <div class="row">
+                    <div class="col">
+                        <h3>Want to see it later?</h3>
+                        <p>Choose the version you prefer and download it</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="./DanielDias.Resume.pdf" download="DanielDias.Resume">
+                            <button class="btn btn-info btn-lg"><i class="fa fa-download"></i> Styled PDF Version</button>
+                        </a>
+                    </div>
+                    <div class="col-sm-6">  
+                        <a href="./DanielDias.Resume.docx" download="DanielDias.Resume">
+                            <button class="btn btn-info btn-lg"><i class="fa fa-download"></i> Plain Text DOC Version</button>
+                        </a>
+                    </div>
+                </div>
             </div>
-
             <div class="social">
-                <h4>Check my linkedin profile:</h4>
+                <h5>Check my linkedin profile:</h5>
                 <a href="https://ca.linkedin.com/in/danielndias" target="_blank"><img src="images/linkedin.png" alt="Linkedin Logo"></a>
             </div>
 
@@ -247,55 +262,86 @@
                 <h1>My Portfolio</h1>
             </div>
             <div class="container">
+                    <div class="row">
+                            <div class="col-md-4">
+                                <div class="portfolio">
+                                    <a href="https://starwarsquiz.dndias.com" target="_blank">
+                                        <img src="images/starWarsQuiz.jpg" class="horizontalScreenshots" 
+                                        alt="Star Wars Quiz Game Screen"/>
+                                        <h4>Star Wars Quiz</h4>
+                                    </a>
+                                    <p>Star Wars Quiz game developed in Angular</p>
+                                    <a href="https://github.com/danielndias/starwarsquiz" target="_blank">Check the Code</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                    <div class="portfolio">
+                                        <a href="https://github.com/danielndias/web.PickAPair" target="_blank">
+                                            <img src="images/nfl.JPG" class="horizontalScreenshots" 
+                                            alt="NFL Pick-a-Pair Game Screen"/>
+                                            <h4>NFL Pick-a-Pair</h4>
+                                        </a>
+                                        <p>Pick a Pair game of NFL Teams developed in JavaScript</p>
+                                    </div>
+                                </div>
+                            <div class="col-md-4">
+                                <div class="portfolio">
+                                    <a href="portfolio/spotify/index.html" target="_blank">
+                                        <img src="images/spotify.JPG" class="horizontalScreenshots" 
+                                        alt="Spotify Clone Website Screen"/>
+                                        <h4>Spotify Clone Website</h4>
+                                    </a>
+                                    <p>Spotify clone website developed in portuguese in order to test the knowledge acquire
+                                    during web development classes</p>
+                                </div>
+                            </div>
+                        </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="portfolio">
-                            <img src="images/rockPaperScissors.JPG" id="rps" alt="Rock Paper Scissors Game Screen"/>
-                            <a href="portfolio/RockPaperScissors/index.html" target="_blank"><h4>Rock Paper Scissors</h4></a>
+                            <a href="https://github.com/danielndias/web.RockPaperScissors" target="_blank">
+                                <img src="images/rockPaperScissors.JPG" class="verticalScreenshots" 
+                                alt="Rock Paper Scissors Game Screen"/>
+                                <h4>Rock Paper Scissors</h4>
+                            </a>
                             <p>Rock Paper Scissors game developed in JavaScript</p>
-                            <a href="https://github.com/danielndias/web.RockPaperScissors" target="_blank">Check the Code</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="portfolio">
-                            <img src="images/tictactoe.JPG" id="tictactoe" alt="Tic Tac Toe Game Screen"/>
-                            <a href="portfolio/TicTacToe/index.html" target="_blank"><h4>Tic Tac Toe</h4></a>
+                            <a href="https://github.com/danielndias/web.TicTacToe" target="_blank">
+                                <img src="images/tictactoe.JPG" class="verticalScreenshots" 
+                                alt="Tic Tac Toe Game Screen"/>
+                                <h4>Tic Tac Toe</h4>
+                            </a>
                             <p>Tic Tac Toe game developed in JavaScript</p>
-                            <a href="https://github.com/danielndias/web.TicTacToe" target="_blank">Check the Code</a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="portfolio">
-                            <img src="images/rpsls.JPG" id="rpsls" alt="Rock Paper Scissors Lizard Spock Game Screen"/>
-                            <a href="portfolio/RockPaperScissorsLizardSpock/index.php" target="_blank">
+                            <a href="https://github.com/danielndias/web.RockPaperScissorsLizardSpock" target="_blank">
+                                <img src="images/rpsls.JPG" class="verticalScreenshots" 
+                                alt="Rock Paper Scissors Lizard Spock Game Screen"/>
                                 <h4>Rock Paper Scissors Lizard Spock</h4>
                             </a>
                             <p>
                                 Variation of the Rock Paper Scissors game created by the character Sheldon from the TV
                                 Show "The Big Bang Theory". The game was developed using form handling in PHP.
                             </p>
-                            <a href="https://github.com/danielndias/web.RockPaperScissorsLizardSpock" target="_blank">
-                                Check the Code
-                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="portfolio">
-                            <img src="images/nfl.JPG" id="nfl" alt="NFL Pick-a-Pair Game Screen"/>
-                            <a href="portfolio/PickAPair/index.html" target="_blank"><h4>NFL Pick-a-Pair</h4></a>
-                            <p>Pick a Pair game of NFL Teams developed in JavaScript</p>
-                            <a href="https://github.com/danielndias/web.PickAPair" target="_blank">Check the Code</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="portfolio">
-                            <img src="images/spotify.JPG" id="spotify" alt="Spotify Clone Website Screen"/>
-                            <a href="portfolio/spotify/index.html" target="_blank"><h4>Spotify Clone Website</h4></a>
-                            <p>Spotify clone website developed in portuguese in order to test the knowledge acquire
-                            during web development classes</p>
-                            <a href="#" target="_blank">Check the Code</a>
+                    <div class="col">
+                        <div class="social">
+                            <h5>
+                                Don't forget to check my 
+                                <a href="https://github.com/danielndias" target="_blank">GitHub</a>
+                                a page to see these and several other projects I've been working on
+                            </h5>
+                            <a href="https://github.com/danielndias" target="_blank">
+                                <img src="images/git.png" alt="Github Logo">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -306,7 +352,7 @@
 
         <section id="panel4" class="panel">
             <div class="titleBar">
-                <h1>Contact Me</h1>
+                <h1>Get in Touch with Me</h1>
             </div>
             <div class="container">
                 <div class="row">

@@ -2,6 +2,10 @@
     display: inline-block;
 }
 
+.navbar {
+    @include border-radius(0);
+}
+
 #logo {
     @include height(100px);
     margin-top: -60px;

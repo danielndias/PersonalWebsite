@@ -10,15 +10,15 @@
     }
 
     img {
-        border: 1px dashed $primary-color;
+        border: 2px solid $primary-color;
     }
 }
 
-#tictactoe, #rps, #rpsls  {
+.verticalScreenshots  {
     @include height(300px);
 }
 
-#nfl, #spotify {
+.horizontalScreenshots {
     @include height(150px);
 
 }

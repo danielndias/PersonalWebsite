@@ -2,7 +2,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $headers-font;
 }
 
-p {
+p, li {
     font-size: $base-size;
     font-family: $body-font;
 }
@@ -10,6 +10,7 @@ p {
 #body {
     margin: auto;
     background: url("../images/background2.jpg");
+    overflow: scroll;
 
     @include big-screen {
         width: $content-width;
@@ -35,3 +36,19 @@ h3 {
         box-sizing: border-box;
     }
 }
+
+.social {
+    text-align: center;
+
+    img {
+        display: block;
+        width: 230px;
+        margin: 20px auto;
+    }
+
+    h5 {
+        font-weight: 700;
+        padding: 20px 20px 0 20px;
+    }
+}
+

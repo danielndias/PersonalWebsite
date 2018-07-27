@@ -1,17 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googleapis.com/css?family=Ostrich+Sans);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
 h1, h2, h3, h4, h5, h6 {
   font-family: "Bitter", Georgia, serif;
 }
 
-p {
+p, li {
   font-size: 14px;
-  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 #body {
   margin: auto;
   background: url("../images/background2.jpg");
+  overflow: scroll;
 }
 
 @media all and (min-width: 900px) {
@@ -42,8 +45,27 @@ h3 {
   }
 }
 
+.social {
+  text-align: center;
+}
+
+.social img {
+  display: block;
+  width: 230px;
+  margin: 20px auto;
+}
+
+.social h5 {
+  font-weight: 700;
+  padding: 20px 20px 0 20px;
+}
+
 .navbar-brand img {
   display: inline-block;
+}
+
+.navbar {
+  border-radius: 0;
 }
 
 #logo {
@@ -185,16 +207,6 @@ h3 {
   }
 }
 
-.social {
-  text-align: center;
-}
-
-.social img {
-  display: block;
-  width: 230px;
-  margin: 20px auto;
-}
-
 .profile p {
   padding: 50px 20px;
   font-size: 16px;
@@ -233,19 +245,15 @@ h3 {
 #downloadPdf h3 {
   color: #ffffff;
   margin-left: 0;
-  padding: 10px 0 30px 0;
+  padding: 10px 0;
 }
 
-#downloadPdf a {
-  border-radius: 5px;
-  background: #ffffff;
-  padding: 15px 40px;
-  color: #004d99;
-  border: 1px solid #000000;
+#downloadPdf p {
+  color: #ffffff;
 }
 
-#downloadPdf a:hover {
-  background-color: #cccccc;
+#downloadPdf button {
+  margin: 2%;
 }
 
 #certifications {
@@ -270,14 +278,14 @@ h3 {
 }
 
 .portfolio img {
-  border: 1px dashed #004d99;
+  border: 2px solid #004d99;
 }
 
-#tictactoe, #rps, #rpsls {
+.verticalScreenshots {
   height: 300px;
 }
 
-#nfl, #spotify {
+.horizontalScreenshots {
   height: 150px;
 }
 
