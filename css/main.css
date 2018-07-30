@@ -256,6 +256,12 @@ h3 {
   margin: 2%;
 }
 
+#downloadPdf button:hover {
+  box-shadow: 2px 2px 2px #0a0a66;
+  -moz-box-shadow: 2px 2px 2px #0a0a66;
+  -webkit-box-shadow: 2px 2px 2px #0a0a66;
+}
+
 #certifications {
   text-align: center;
 }
@@ -277,8 +283,18 @@ h3 {
   color: #004d99;
 }
 
+.portfolio h4:hover {
+  color: #003366;
+}
+
 .portfolio img {
   border: 2px solid #004d99;
+}
+
+.portfolio img:hover {
+  box-shadow: 2px 2px 2px #808080;
+  -moz-box-shadow: 2px 2px 2px #808080;
+  -webkit-box-shadow: 2px 2px 2px #808080;
 }
 
 .verticalScreenshots {

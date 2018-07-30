@@ -7,10 +7,22 @@
         font-size: 22px;
         font-weight: 700;
         color: $primary-color;
+
+        &:hover {
+            color: darken($primary-color, 10%);
+        }
+    }
+
+    a {
+        
     }
 
     img {
         border: 2px solid $primary-color;
+
+        &:hover {
+            @include box-shadow(2px 2px 2px $grey);
+        }
     }
 }
 
